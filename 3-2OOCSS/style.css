@@ -1,13 +1,68 @@
-<!DOCTYPE html>
-<html lang="jp">
-<html>
-<head>
-<meta charset="UTF-8">
-<title>〇〇へようこそ！</title>
-<link rel="stylesheet" href="style.css">
-<style></style>
-</head>
-<body>
 
-</body>
-</html>
+/* 訂正前 */
+.sucucess-message{
+    border: 2px solid #494;
+    border-radius: 6px;
+    padding: 10px;
+    background-color: rgba(68,153, 68,0.3);
+    font-weight: bold;
+    font-size: 16px;
+    color: #333;
+}
+
+.warning-message{
+    border: 2px solid #DD0;
+    border-radius: 6px;
+    padding: 10px;
+    background-color: rgba(221,221, 0,0.3);
+    font-weight: bold;
+    font-size: 16px;
+    color: #333;
+}
+
+
+
+.error-message{
+    border: 2px solid #C44;
+    border-radius: 6px;
+    padding: 10px;
+    background-color: rgba(204,68, 68,0.3);
+    font-weight: bold;
+    font-size: 16px;
+    color: #333;
+}
+
+/* 訂正後 */
+
+
+/* ❶基本構造のCSSを設定する */
+.alert{
+    border: 2px solid #333;
+    border-radius: 6px;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 16px;
+    color: #333;
+}
+
+/* それぞれの色を決める */
+
+.success{
+    border-color: #494;
+    background-color: rgba(68, 153, 68, 0.3);
+}
+
+.warning{
+    border-color: #DD0;
+    background-color: rgba(221, 221, 0,0.3);
+}
+
+.error{
+    border-color: #C44;
+    background-color: rgba(204,68, 68,0.3);
+}
+
+.info{
+    border-color: #0000ff;
+    background-color: rgba(0,0,255,0.3);
+}
