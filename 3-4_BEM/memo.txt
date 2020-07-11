@@ -8,7 +8,9 @@ CSS設計分野で最も取り上げている
 ## BEMの三つのコンポネート、オブジェクト
 
 Block
-Element・・・Blockを構成している要素
-Modifier・・・Elementのバリエーションの違い
+Element・・・Blockを構成している要素 B__E
+Modifier・・・Elementのバリエーションの違い B--M
+
+
 
 
