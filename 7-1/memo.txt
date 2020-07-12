@@ -1,0 +1,10 @@
+# HTML/CSSのコンポネート(UIコンポネート)
+
+## WEB Components
+
+・Templates
+・Custom Elements
+・Shadow DOM
+・HTML Imports
+
+それぞれ個別として扱うこともできるが仕様を組み合わせることによって
