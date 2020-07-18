@@ -1,0 +1,84 @@
+
+//因数をつかわない
+@mixin baseBorder{
+  border:1px solid #ccc;
+  background-color: red;
+}
+.box1{
+  @include baseBorder;
+  width: 100%;
+}
+.box2{
+  @include  baseBorder;
+  width: 50%;
+}
+
+//引数を使う場合
+
+@mixin baseBorder($borderSize:1px, $borderType:solid, $borderColor:#ccc){
+  border:$borderSize $borderType $borderColor;
+}
+.box1{
+  @include baseBorder($borderSize:10px);
+  width: 100%;
+}
+.box2{
+  @include  baseBorder($borderColor:#f90);
+  width: 50%;
+}
+
+.box3{
+  @include  baseBorder($borderColor:green);
+  width: 50%;
+}
+
+
+//extend
+
+.base-box{
+  border:1px solid #ddd;
+  padding:10px;
+  background-color:#eee;
+  box-sizing: border-box;
+}
+.box1{
+  @extend .base-box;
+  width:100%;
+}
+.box2{
+  @extend .base-box;
+  width:50%;
+}
+
+//プレースフォルダー
+
+%base-box{
+  border:1px solid #ddd;
+  padding:10px;
+  background-color:#eee;
+  box-sizing: border-box;
+}
+
+
+.box1{
+  @extend %base-box;
+  width:100%;
+}
+.box2{
+  @extend %base-box;
+}
+
+@mixin baseBox(){
+  border:1px solid #ddd;
+  padding:10px;
+  background-color:#eee;
+  box-sizing: border-box;
+}
+.box1{
+  @include baseBox();
+  width: 100%;
+}
+.box2{
+  @include baseBox();
+  width: 50%;
+}

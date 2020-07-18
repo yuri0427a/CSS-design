@@ -1,0 +1,73 @@
+.box1 {
+  border: 1px solid #ccc;
+  background-color: red;
+  width: 100%;
+}
+
+.box2 {
+  border: 1px solid #ccc;
+  background-color: red;
+  width: 50%;
+}
+
+.box1 {
+  border: 10px solid #ccc;
+  width: 100%;
+}
+
+.box2 {
+  border: 1px solid #f90;
+  width: 50%;
+}
+
+.box3 {
+  border: 1px solid green;
+  width: 50%;
+}
+
+.base-box, .box1, .box2 {
+  border: 1px solid #ddd;
+  padding: 10px;
+  background-color: #eee;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.box1 {
+  width: 100%;
+}
+
+.box2 {
+  width: 50%;
+}
+
+.box1, .box2 {
+  border: 1px solid #ddd;
+  padding: 10px;
+  background-color: #eee;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.box1 {
+  width: 100%;
+}
+
+.box1 {
+  border: 1px solid #ddd;
+  padding: 10px;
+  background-color: #eee;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 100%;
+}
+
+.box2 {
+  border: 1px solid #ddd;
+  padding: 10px;
+  background-color: #eee;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 50%;
+}
+/*# sourceMappingURL=mixin.css.map */
